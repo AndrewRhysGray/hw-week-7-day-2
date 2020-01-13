@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>To-do list</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/bundle.js"></script>
+</head>
+<body>
+  <div id="app">
+    <ul>
+      <li v-for="item in items">
+        <span>{{ item.name }}</span>
+        <!-- <span v-if="item.isDone">Done!</span>
+        <button v-if="!item.isDone"
+        v-on:click="doneItem(index)">Done</button> -->
+      </li>
+    </ul>
+
+    <form v-on:submit.prevent="saveNewItem">
+      <label for="new-item">Add a new item:</label>
+      `<input id="new-item" type="text" v-model="newItem.name" />
+      <input type="submit" value="Save new item" />`
+    </form>
+
+  </div>
+</body>
+</html>

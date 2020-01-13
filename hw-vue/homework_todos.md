@@ -34,11 +34,11 @@ todos: [
 
 ## Setup
 
-1. npm init and install `vue`, `webpack` and `webpack-cli`.
+1. npm init and install `vue`, `webpack` and `webpack-cli`. D
 
-2. Add build script to `package.json`.
+2. Add build script to `package.json`. D
 
-3. Create folder and file structure.
+3. Create folder and file structure. D
 
 Your folder structure might look like this:
 
@@ -52,7 +52,7 @@ Your folder structure might look like this:
 - package.json
 - webpack.config.js
 
-4. Create `webpack.config.js` file and add configuration.
+4. Create `webpack.config.js` file and add configuration. D
 
 For your convenience, here is a sample webpack configuration:
 
@@ -75,12 +75,12 @@ const config = {
 module.exports = config;
 ```
 
-5. Create simple HTML file with a div with id of `app`
+5. Create simple HTML file with a div with id of `app` D
 
-6. In `app.js` import `vue` and create a new instance passing in config object with `em: '#app'` as starting point.
+6. In `app.js` import `vue` and create a new instance passing in config object with `em: '#app'` as starting point. D
 
-7. npm run build.
+7. npm run build. D
 
-8. open index.html and make sure you can see `vue` dev tools.
+8. open index.html and make sure you can see `vue` dev tools. D
 
 9. Develop!!
