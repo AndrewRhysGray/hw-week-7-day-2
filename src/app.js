@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
       items: [
 
-          { name: "Bacon", isPurchased: false},
-          { name:"Rolls", isPurchased: true},
-          { name: "Egg", isPurchased: false }
+          { name: "Take out trash", isDone: false},
+          { name: "Buy groceries", isDone: true},
+          { name: "Hose down driveway", isDone: false }
         ],
         newItem: { name: "", isDone: false }
       },
